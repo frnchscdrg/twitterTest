@@ -16,13 +16,7 @@ public class twitterTest {
 
     @Test
     public void anExampleTest() {
-        //System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-        // Start a new Chrome browser instance and maximize the browser window
-        //driver = new ChromeDriver();
-        // driver.manage().window().maximize();
 
-        // Navigate to the Amazon.com home page
-        // driver.get("https://www.facebook.com/");
         driver.get(URL);
 
         WebElement username = driver.findElement(By.xpath("//*[@id=\"email\"]"));
